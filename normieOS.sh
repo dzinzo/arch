@@ -18,7 +18,7 @@ rootsize=$(dialog --stdout --inputbox "Enter root partition size in GB, e.g 12G"
 clear
 homesize=$(dialog --stdout --inputbox "Enter home partition size in GB, e.g. 200G" 0 0) || exit 1
 clear
-cat > /de.txt << 'EOT'
+cat > de.txt << 'EOT'
 KDE Plasma
 i3
 xfce
